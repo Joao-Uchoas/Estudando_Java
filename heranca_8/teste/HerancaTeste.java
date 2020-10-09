@@ -21,7 +21,7 @@ public class HerancaTeste {
         funcionario.setSalario(30000);
         funcionario.setEndereco(endereco);
         
-        //Imprimir
+    
         pessoa.imprime();
         System.out.println("-------------------------------");
         funcionario.imprime();
