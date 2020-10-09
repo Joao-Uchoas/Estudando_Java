@@ -20,10 +20,11 @@ public class Aluno {
         System.out.println("--------------------Relatório do Alunos--------------------");
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
-        if(this.seminario != null)
+        if(this.seminario != null){
             System.out.println("Seminario: " + this.seminario.getTitulo());
-        else
-            System.out.println("Aluno não esta escrito em nenhum seminario.");
+            return;
+        }
+        System.out.println("Aluno não esta escrito em nenhum seminario.");
     }
 
 

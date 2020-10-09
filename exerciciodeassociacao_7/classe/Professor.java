@@ -17,9 +17,15 @@ public class Professor {
         System.out.println("--------------------Relatório do Professor--------------------");
         System.out.println("Nome: " + this.nome);
         System.out.println("Especialidade: " + this.especialidade);
-        System.out.println("Seminarios participantes:");
-        for(Seminario sem : seminario)
-            System.out.print(sem.getTitulo() + " ");
+        if(seminario != null && seminario.length != 0){
+            System.out.println("Seminarios participantes:");
+            for(Seminario sem : seminario)
+                System.out.print(sem.getTitulo() + " ");
+            return;
+        }
+            System.out.println("Não tem nenhum seminário!");
+        
+        
     }
 
 
