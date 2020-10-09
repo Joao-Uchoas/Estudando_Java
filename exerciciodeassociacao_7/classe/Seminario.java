@@ -15,12 +15,17 @@ public class Seminario {
     public void imprime(){
         System.out.println("--------------------Relatório do Seminário--------------------");
         System.out.println("Titulo: " + this.titulo);
-        System.out.println("Professor palestrante: " + this.professor.getNome());
+
+        if(this.professor !=null){
+            System.out.println("Professor palestrante: " + this.professor.getNome());
+        }else
+            System.out.println("Nenhum professor registrado para esse seminário!");
+
         if(this.local !=null){
             System.out.println("Local: " + this.local.getRua() + ", Bairro " + this.local.getBairro());
         }else
             System.out.println("Nenhum local registrado para esse seminário!");
-            
+
         if(aluno != null && aluno.length != 0){
             for(Aluno aluninho : aluno)
                 System.out.println("Aluno palestrante: " + aluninho.getNome());
