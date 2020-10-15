@@ -1,4 +1,4 @@
-package exception_15.checkedexption.teste;
+package exception_15.checkedexception.teste;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 
-import exception_15.checkedexption.classe.Leitor1;
-import exception_15.checkedexption.classe.Leitor2;
+import exception_15.checkedexception.classe.Leitor1;
+import exception_15.checkedexception.classe.Leitor2;
 
 public class TryWithiResourcesTeste {
     public static void main(String[] args) {

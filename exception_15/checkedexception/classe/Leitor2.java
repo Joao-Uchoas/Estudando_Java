@@ -1,4 +1,4 @@
-package exception_15.checkedexption.classe;
+package exception_15.checkedexception.classe;
 
 
 

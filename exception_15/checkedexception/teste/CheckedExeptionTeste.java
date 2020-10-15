@@ -1,4 +1,4 @@
-package exception_15.checkedexption.teste;
+package exception_15.checkedexception.teste;
 
 import java.io.File;
 import java.io.IOException;
