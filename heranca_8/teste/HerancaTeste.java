@@ -18,7 +18,7 @@ public class HerancaTeste {
 
         
         funcionario.setCpf("4681233");
-        funcionario.setSalario(30000);
+        funcionario.setSalario(3000);
         funcionario.setEndereco(endereco);
         
     
